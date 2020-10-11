@@ -1,0 +1,27 @@
+.Card {
+    float: left;
+    margin-top: 20px;  
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+    color: black;
+    border-style:solid;
+    border-width:5px;
+    border-radius: 5px;
+    border-color: #99CCCC;
+  }
+  .TaskHome{
+    height: 880px;
+    width: auto;
+  }
+
+  #link{
+    margin-right:10px;
+  }
+  
+.TaskList{
+list-style-type: none; 
+overflow: auto;
+margin-bottom: 50px;
+margin-left:10%
+}
