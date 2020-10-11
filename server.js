@@ -18,8 +18,8 @@ app.use(fileUpload({
 }))
 
 
-mongoose.connect("mongodb+srv://zhangjizhi1021:zjz200999@cluster0.zitam.mongodb.net/102Task?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true})
-// mongoose.connect("mongodb://localhost:27017/Task2",{useNewUrlParser:true, useUnifiedTopology:true})
+//mongoose.connect("mongodb+srv://zhangjizhi1021:zjz200999@cluster0.zitam.mongodb.net/102Task?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect("mongodb://localhost:27017/Task102",{useNewUrlParser:true, useUnifiedTopology:true})
 
 app.get('/getAll',(req,res,next) => {
   Task.find({}).sort({'date':-1}).exec((err,TaskList)=>{
