@@ -1,0 +1,59 @@
+footer{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #4e5d6c;
+}
+.newsletter{
+    float: left;
+    overflow: hidden;
+}
+.Connect{
+    float:right;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: right;
+    width:230px
+}
+#newthing{
+    margin-left: 10px;
+}
+#email{
+    border: 1px solid;
+    margin-left: 10px;
+    width: 250px;
+    height: 25px;
+}
+#button{
+    margin-top:10px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+footer .Connect li{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+
+#facebook{
+    width: 30px;
+    height: 30px;
+}
+#twitter{
+    width: 30px;
+    height: 30px;
+}
+#instagram{
+    width: 30px;
+    height: 30px;
+}
+
+.connect{
+    margin-top: 20px;
+    float: left;
+    margin-right: 10px;
+}
+.footer{
+    margin-top:190px
+}
+

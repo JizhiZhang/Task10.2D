@@ -1,0 +1,50 @@
+.title4{
+    /* padding-top:20px;
+    padding-bottom: 20px; */
+    background-color: #99CCCC;
+    color:black;
+}
+
+.Require{
+    display: inline; 
+    
+}
+.Require label{
+margin-right: 10px;
+}
+
+.Master h3{
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.require{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.text label{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text .ui input{
+    width:250px;
+    height:30px;
+}
+#isRequire{
+    margin-right: 20px;
+}
+#number{
+    margin-right: 20px;
+}
+#rewardinput:hover{
+    border-color: crimson
+}
+#numberinput:hover{
+    border-color: crimson
+}
+
+
+

@@ -1,0 +1,17 @@
+.Detail{
+    text-align: center;
+    margin-top:100px
+}
+.Detail Table{
+    background-color: slategrey;
+    height: auto;
+    margin: auto;
+    width:500px
+}
+.DetailTitle{
+    margin-bottom:20px;
+    text-align:center
+}
+.detailbutton{
+    margin-top: 20px;
+}
